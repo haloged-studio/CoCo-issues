@@ -13,10 +13,11 @@ body:
       label: 检查清单
       description: 请认真检查以下清单中的每一项，并在相符的项前打勾。
       options:
+        - lable: 如是离线应用已升级至最新版本。
         - label: 已经搜索过，没有发现类似 issue。
         - label: 已经搜索过[网站文档](https://haloged-studio.eu.org/docs)，没有发现相关内容。
   - type: input
-    id: bug-url
+    id: bug-bz
     attributes:
       label: 复现步骤
       description: 请输入可供复现的步骤。
@@ -28,6 +29,6 @@ body:
     attributes:
       label: 问题描述
       description: 请告诉我们发生了什么？
-      placeholder:  请详细描述您所遇到的情况：复现步骤、操作过程、主题安装方式、仓库地址、截图等内容。
+      placeholder:  请详细描述您所遇到的情况：详细的复现或问题步骤、芯片名称、系统版本、截图等内容。
     validations:
       required: true

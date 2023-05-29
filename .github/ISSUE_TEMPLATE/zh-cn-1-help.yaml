@@ -4,7 +4,7 @@ title: "【问题】："
 labels: help
 body:
   - type: markdown
-    id=test_one
+    id: test_one
     attributes:
       value: "请务必认真填写，足够的信息能帮助我们快速定位问题并及时修复。"
   - type: checkboxes

@@ -15,24 +15,12 @@ body:
       options:
         - label: 已经搜索过，没有发现类似 issue。
         - label: 已经搜索过[网站文档](https://haloged-studio.eu.org/docs)，没有发现相关内容。
-  - type: dropdown
-    id: theme-version
-    attributes:
-      label: 主题版本
-      description: 请选择您所使用的CoCo作品版本。
-      options:
-        - 6.x
-        - 5.x
-        - 4.x
-        - Other
-    validations:
-      required: true
   - type: input
     id: bug-url
     attributes:
-      label: 复现地址
-      description: 请输入可供复现的访问地址。
-      placeholder: "如: https://haloged-studio.eu.org/help"
+      label: 复现步骤
+      description: 请输入可供复现的步骤。
+      placeholder: "如: 先打开设置......"
     validations:
       required: true
   - type: textarea
